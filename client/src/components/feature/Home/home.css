@@ -36,3 +36,11 @@
     margin-left: 20%;
     max-height: 400px !important;
 }
+
+.carousel-control-next-icon {
+    background-color: rgb(112, 130, 56);
+}
+
+.carousel-control-prev-icon {
+    background-color: rgb(112, 130, 56);
+}

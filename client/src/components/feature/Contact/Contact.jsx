@@ -16,14 +16,14 @@ const Contact = () => {
             <div class="row">
                 <div class="col-md-6">
                     <div class="md-form mb-0">
-                        <input type="text" id="name" name="name" class="form-control" placeholder=""/>
-                        <label for="name" class="">Your name</label>
+                    <label for="name" class="">Full Name</label>
+                        <input type="text" id="name" name="name" class="form-control" placeholder="Full Name"/>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="md-form mb-0">
-                        <input type="text" id="email" name="email" class="form-control"/>
-                        <label for="email" class="">Your email</label>
+                    <label for="email" class="">Email</label>
+                        <input type="text" id="email" name="email" class="form-control" placeholder="Email"/>
                     </div>
                 </div>
             </div>
@@ -31,20 +31,18 @@ const Contact = () => {
             <div class="row">
                 <div class="col-md-12">
                     <div class="md-form mb-0">
-                        <input type="text" id="subject" name="subject" class="form-control"/>
-                        <label for="subject" class="">Subject</label>
+                        <input type="text" id="subject" name="subject" class="form-control subject" placeholder="Subject"/>
                     </div>
                 </div>
             </div>
 
             <div class="row">
-
                
                 <div class="col-md-12">
 
                     <div class="md-form">
-                        <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-                        <label for="message">Your message</label>
+                    <label for="message">Message</label>
+                        <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea" placeholder="Message"></textarea>
                     </div>
 
                 </div>
@@ -52,8 +50,8 @@ const Contact = () => {
            
         </form>
 
-        <div class="text-center text-md-left">
-            <a class="btn btn-primary" href= "" onclick="document.getElementById('contact-form').submit();">Send</a>
+        <div class="text-center text-md-left filtersection">
+            <a class="btn btn-primary send" href= "" onclick="document.getElementById('contact-form').submit();">Send</a>
         </div>
         <div class="status"></div>
     </div>

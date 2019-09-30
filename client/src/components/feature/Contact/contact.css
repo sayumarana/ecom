@@ -17,3 +17,14 @@ form h1 {
 .form-control {
     background-color: #f4f4f4;
 }
+
+.send {
+    margin-top: 2%;
+}
+label {
+    margin-top: 1%;
+}
+
+.subject {
+    margin-top: 2%;
+}

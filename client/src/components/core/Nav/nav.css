@@ -1,4 +1,4 @@
-a {
+.nav-item {
     margin: 10px;
     padding: 10px;
     text-align: center;
@@ -9,8 +9,8 @@ a {
 .fixed-top {
     position: static;
 }
+
 .navbar {
     background: rgb(112, 130, 56);
-   
 }
 

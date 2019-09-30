@@ -1,5 +1,4 @@
-import React from 'react'
-
+import React from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import './nav.css';
 
@@ -21,18 +20,6 @@ const Nav = (props) => {
                 <li className="nav-item"><NavLink to='/products'>PRODUCTS</NavLink></li>
                 <li className="nav-item"><NavLink to='/contacts'>CONTACT US</NavLink></li>
             </ul>
-            {/* {props.location.pathname === '/products' &&
-          <form onSubmit={event => event.preventDefault()}>
-            <input className="typeFilter" type="text" onChange={event => props.nameFilter(event)} placeholder="Search for herbs.." title="Type in a herb" />
-         <select className="selectChanges" onChange={event => props.dropboxSearch(event)}>
-                   <option value="All">All</option>
-                   <option value="Leaf">Loose Leaf</option>
-                   <option value="Capsule">Capsule Form</option>
-                   <option value="lessthan20">Less than $20 </option>
-                   <option value="morethan20">More than $20</option>
-               </select>
-          </form>
-            } */}
         </div>
         </nav>
     )

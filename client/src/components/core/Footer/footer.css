@@ -1,6 +1,7 @@
 .page-footer {
     background: rgb(112, 130, 56);
     margin-top: 8%;
+    padding: 3em 0 2em 0;
 }
 
 .col {
@@ -9,6 +10,7 @@
 
 .content {
     justify-content: center;
+    text-align: center;
 }
 
 .insta {
