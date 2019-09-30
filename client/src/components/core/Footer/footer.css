@@ -1,0 +1,38 @@
+.page-footer {
+    background: rgb(112, 130, 56);
+    margin-top: 8%;
+}
+
+.col {
+    margin-top: 5%;
+}
+
+.content {
+    justify-content: center;
+}
+
+.insta {
+    margin-bottom: 3%;
+    height: 40px;
+}
+
+.social {
+    text-align: center;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.icon {
+    margin: 0;
+    padding: 0;
+}
+
+.lol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+

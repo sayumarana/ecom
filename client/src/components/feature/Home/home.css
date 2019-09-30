@@ -1,0 +1,38 @@
+.main-header {
+    margin-top: 6%;
+    margin-bottom: 4%;
+    text-align: center;
+}
+
+.main-intro {
+    margin-top: 8%;
+    text-align: center;
+}
+
+.gen-info {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+
+.main-pics {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    max-height: 28%;
+    margin-left: 33%;
+}
+
+.d-block {
+    width: 70%;
+    height: 400px;
+}
+
+.carousel-inner{
+    width: 60%;
+    margin-left: 20%;
+    max-height: 400px !important;
+}
