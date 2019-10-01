@@ -62,6 +62,12 @@ app.get('/alphabetical', (req, res) => {
       res.json(data) 
     })
   })
+
+  app.get('/contacts', (req, res) => {
+    connection.query("SELECT * FROM Contacts", function(err, data){
+      res.json(data)
+    })
+  })
   
 //   ////////////////////////////////////
 //   /////       Launch Server      ////

@@ -12,26 +12,26 @@ const Home = (props) => {
         <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
           <ol className="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1" className="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2" className="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3" className="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="4" className="active"></li>
           </ol>
           <div className="carousel-inner">
             <div className="carousel-item active">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Chondrus_crispus_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-034.jpg" className="d-block w-100" alt="Herbs"/>
+              <img src="https://www.alvita.com/media/catalog/product/b/u/burdock_root_2.png" className="d-block w-100" alt="Herbs"/>
             </div>
             <div className="carousel-item">
-              <img src="https://i.pinimg.com/originals/1f/b5/79/1fb5792670d5586d05bba2e28698f5a5.jpg" className="d-block w-100" alt="Herbal compounds"/>
+              <img src="https://www.alvita.com/media/catalog/product/f/e/fennel_1.png" className="d-block w-100" alt="Herbal compounds"/>
             </div>
             <div className="carousel-item">
-              <img src="https://i.pinimg.com/originals/6c/fa/2a/6cfa2acf3aef2b10341386e01c0c1931.jpg" className="d-block w-100" alt="Capsules"/>
+              <img src="https://www.alvita.com/media/catalog/product/h/a/hawthorn_2.png" className="d-block w-100" alt="Capsules"/>
             </div>
             <div className="carousel-item">
-              <img src="https://i.pinimg.com/originals/8c/9e/98/8c9e980eda1a95a9c6b028994daf2dbc.jpg" className="d-block w-100" alt="Capsules"/>
+              <img src="https://www.alvita.com/media/catalog/product/s/t/stjohnswort_f_cmyk_3.png" className="d-block w-100" alt="Capsules"/>
             </div>
             <div className="carousel-item">
-              <img src="https://i.pinimg.com/originals/2c/47/4e/2c474ea8f31fa573856cea187f671b0a.jpg" className="d-block w-100" alt="Capsules"/>
+              <img src="https://www.alvita.com/media/catalog/product/r/e/red_clover.png" className="d-block w-100" alt="Capsules"/>
             </div>
           </div>
           <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -55,7 +55,7 @@ const Home = (props) => {
                and replacing depleted minerals, cell foods can rejuvenate damaged cell tissue, especially those eroded by acidity. The primary organs affected are the skin, 
                liver, gall bladder, lymph glands, kidneys and the colon. With inclusive nutritional programs designed, not around the pathology, but around the whole person
                and their diet and health, cell foods are an important part of the nutritional environment of every recovering, responsible and healthy individual.</p>
-            <img src="https://i.pinimg.com/originals/ce/1c/dc/ce1cdc1203d44bc2a29761c8f00e25fe.jpg" className="main-pics" alt="dandelion root"/>
+            <img src="https://www.alvita.com/media/catalog/product/d/a/dandelion_root_1.png" className="main-pics" alt="dandelion root"/>
             <p className="gen-info"> 
                According to Western medical research, diseases are a result of the host being infected with a “germ”, “virus”, or “bacteria”. In their 
                approach in treating these “infestations”, inorganic, carcinogenic chemicals are employed. Our research immediately uncovers flaws in their premise through 
@@ -64,7 +64,7 @@ const Home = (props) => {
             <p className="gen-info">
                 In contrast, as we examine an African approach to disease, it diametrically opposes the present Western approach. Specifically, the African Bio-mineral Balance refutes the germ/virus/bacteria premise. Our research reveals that all manifestation of disease finds its genesis when and where the mucous membrane has been compromised. For example, if there is excess mucous in the bronchial tubes, the disease is Bronchitis; if it is in the lungs, the disease is Pneumonia; in the pancreatic duct, it is Diabetes; in the joints Arthritis. All of the African Bio-mineral Balance compounds are comprised of natural plants; which means its constitution is of an alkaline nature.
                 This is important- and instrumental in our success in reversing pathologies- because disease can only exist in an environment that is acid; thus it is inconsistent to utilize inorganic substances when treating disease because they are of an acid base. Only consistent use of natural botanical remedies will effectively cleanse and detoxify a diseased body, reversing it to its intended alkaline state.</p>
-            <img src="https://i.pinimg.com/originals/4d/34/03/4d34034f1a87d21c1fc1322a8b46d67e.jpg" className="main-pics" alt="seamoss"/>
+            <img src="https://www.alvita.com/media/catalog/product/c/a/catnip_1.png" className="main-pics" alt="seamoss"/>
             <p className="gen-info">
                 Our system of nutrition goes even further. In addition to removing the accumulation of years of toxins, the 
                 African Bio-mineral Balance replaces depleted minerals and rejuvenates damaged cell tissue eroded by the acid, diseased state. 

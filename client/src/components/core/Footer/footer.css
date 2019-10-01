@@ -4,6 +4,10 @@
     padding: 3em 0 2em 0;
 }
 
+.shoptitle {
+    font-family: fantasy;
+}
+
 .col {
     margin-top: 5%;
 }
@@ -11,6 +15,7 @@
 .content {
     justify-content: center;
     text-align: center;
+    font-family: 'Playfair Display', serif;
 }
 
 .insta {
@@ -20,6 +25,7 @@
 
 .social {
     text-align: center;
+    font-family: 'Playfair Display', serif;
 }
 
 .wrapper {
@@ -41,6 +47,10 @@
 .socialtag {
     text-decoration: none;
     color: black;
+}
+
+.socialtag:hover {
+    color: bisque;
 }
 
 .socialtag1 {

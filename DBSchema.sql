@@ -82,3 +82,24 @@ CREATE TABLE lowToHigh
 AS (SELECT * FROM Products_price ORDER BY price);
 CREATE TABLE highToLow
 AS (SELECT * FROM Products_price ORDER BY price DESC);
+
+CREATE TABLE Contacts(
+contact_id INT AUTO_INCREMENT NOT NULL,
+full_name VARCHAR(50) NOT NULL,
+email VARCHAR(60) NOT NULL,
+subject_ VARCHAR(50),
+message VARCHAR(1000) NOT NULL,
+primary key(contact_id)
+);
+
+INSERT INTO Contacts(full_name, email, subject_, message)
+VALUES('Megan Marks', 'meganmarks@gmail.com', 'wonderful product', 'loved the sea moss capsules would love
+ to know if you have a newsletter to stay intouch thank you.')
+ ,('Micheal Mayhern', 'michaelhern54@yahoo.com', 'recommendations', 'hello i have been taking the brain 
+ blast capsules for about a month do you recommend any lifestyle changes to improve brain health and detox from metals?')
+ ,('Samantha Arana', 'sayumarana444@alot.com','updates', 'i previously purchased your black castor oil and it was a great
+ quality product. Interested in when this product will be restocked.')
+ ,('Nicky Aina', 'atlantateam11@live.com', 'wonderful product', 'loved the sea moss capsules would love
+ to know if you have a newsletter to stay intouch thank you.')
+ ,('Henry Mayburn', 'henrylhern34@yahoo.com', 'recommendations', 'hello i have been taking the brain 
+ blast capsules for about a month do you recommend any lifestyle changes to improve brain health and detox from metals?')

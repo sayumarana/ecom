@@ -7,10 +7,10 @@ const ProductCard = ({name,imageURL,description,price}) => {
           <div className="card">
             <img className="img-cont" alt={name} src={imageURL}/>
             <div className="card-body">
-              <h3>{name}</h3> 
+              <h3 className="product_name">{name}</h3> 
               <p>{description}</p> 
               <p>${price.toFixed(2)}</p> 
-              <button type="button" className="btn btn-primary buynow">Buy Now</button>
+              <button type="button" className="btn btn-primary">Buy Now</button>
             </div>
           </div>
         </div>        

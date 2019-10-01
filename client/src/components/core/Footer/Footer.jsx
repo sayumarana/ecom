@@ -6,7 +6,7 @@ function Footer(props) {
         <footer className="page-footer">
                 <div className="wrapper">
                     <div className="content">
-                        <h5> Mother Heals Herb Shop</h5>
+                        <h5 className="shoptitle"> Mother Heals Herb Shop</h5>
                         <p>Ranked the Best Online Wellness Shop 2018-2019</p>
                     </div>
                     <div className="social">

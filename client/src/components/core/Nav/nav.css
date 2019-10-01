@@ -3,6 +3,14 @@ a.nav-item {
     padding: 10px;
     color: black;
     text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    border-style: solid;
+    border-color: rgb(136, 136, 88);
+    transition: 1s ease all;
+}
+
+a.nav-item:hover {
+    color: bisque;
 }
 
 .fixed-top {
