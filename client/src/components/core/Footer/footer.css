@@ -32,9 +32,30 @@
     padding: 0;
 }
 
-.lol {
+.socialsite {
     margin: 0;
     padding: 0;
     list-style: none;
+}
+
+.socialtag {
+    text-decoration: none;
+    color: black;
+}
+
+.socialtag1 {
+    max-width: 5%;
+    margin-left: 2%;
+}
+
+@media only screen and (max-width: 800px) {
+    .socialtag1 {
+        max-width: 15%;
+    }
+}
+
+.socialtag2 {
+    max-width: 8%;
+    margin-bottom: 2%;
 }
 

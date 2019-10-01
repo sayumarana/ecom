@@ -28,8 +28,15 @@ p {
     margin-right: 15%;
 }
 
-.btn {
+.buynow {
     width: 33%;
     margin-left: 33%;
     margin-right: 33%;
+}
+
+.btn {
+    width: 20%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 5%;
 }

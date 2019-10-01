@@ -10,7 +10,7 @@ const ProductCard = ({name,imageURL,description,price}) => {
               <h3>{name}</h3> 
               <p>{description}</p> 
               <p>${price.toFixed(2)}</p> 
-              <button type="button" className="btn btn-primary">Buy Now</button>
+              <button type="button" className="btn btn-primary buynow">Buy Now</button>
             </div>
           </div>
         </div>        

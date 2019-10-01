@@ -16,9 +16,9 @@ const Nav = (props) => {
           
           <div className="collapse navbar-collapse" id="navigation-bar">
             <ul className="navbar-nav ml-auto">
-                <li className="nav-item"><NavLink to='/'>HOME</NavLink></li>
-                <li className="nav-item"><NavLink to='/products'>PRODUCTS</NavLink></li>
-                <li className="nav-item"><NavLink to='/contacts'>CONTACT US</NavLink></li>
+                <li><NavLink className="nav-item" to='/'>HOME</NavLink></li>
+                <li><NavLink className="nav-item" to='/products'>PRODUCTS</NavLink></li>
+                <li><NavLink className="nav-item" to='/contacts'>CONTACT US</NavLink></li>
             </ul>
         </div>
         </nav>
