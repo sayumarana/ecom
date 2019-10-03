@@ -1,16 +1,17 @@
-const router = require("express").Router();
-const mysql = require("mysql");
+const router = require("express").Router(); // allows server to route into page
+const mysql = require("mysql"); // allows client intergration to the database
 
 
-// creating database connection :)
+// creating database connection :) between backend and mysql
 var connection = mysql.createConnection({
     host: "localhost",
     port: 3306,
-    user: "root",
-    password: process.env.MYPASSWORD,
-    database: "ecom"
+    user: "root", // user on my sql workbench
+    password: process.env.MYPASSWORD, // dotenv allows me to hide this password
+    database: "ecom" // name of my database 
 });
 
+// live connection with the server
 connection.connect(function(err) {
     if (err) throw err;
     connection.query("SELECT * FROM Products", function(err, data){
