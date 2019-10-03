@@ -2,11 +2,9 @@
 
 ## MOTHER HEALS HERB SHOP
     This app was created for my local herb shop to have a platform for anxious customers to order highly sought after herbal remedies. This app is meant to be user friendly with a clear path on how to get from one page to another. This is a 3 page app so that the users do not get lost when they are there to either get more information on the bussiness or to purchase a product.
-
-##GIT CLONE/DOWNLOAD
- https://github.com/sayumarana/ecom.git
-    
-
+## GIT CLONE/DOWNLOAD PROJECT
+     https://github.com/sayumarana/ecom.git
+     
 ## MOTIVATION
      My passion for holistic health and technology has lead me to create this project. Throughout the process of creating this project I kept in mind my target audience which is health conscious milineals. My appreciation for minimalistic art shined through on my project; it meant to have an artistic minimal design that grabs your attention.
 
@@ -52,8 +50,3 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
