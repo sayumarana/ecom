@@ -1,4 +1,4 @@
-![MOTHER HEALS HERB SHOP](client/public/images/logo.jpeg "Logo")
+![MOTHER HEALS HERB SHOP](client/public/images/blacklogo.jpeg "Logo")
 
 ## MOTHER HEALS HERB SHOP
     This app was created for my local herb shop to have a platform for anxious customers to order highly sought after herbal remedies. This app is meant to be user friendly with a clear path on how to get from one page to another. This is a 3 page app so that the users do not get lost when they are there to either get more information on the bussiness or to purchase a product.

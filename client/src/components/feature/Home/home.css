@@ -38,11 +38,6 @@
     max-height: 400px !important;
 }
 
-.carousel-control-next-icon,
-.carousel-control-prev-icon {
-    background-color: rgb(1,53,51);
-}
-
 #root {
     background: bisque;
 }
