@@ -1,6 +1,17 @@
 .btn-primary {
-    background: rgb(136, 136, 88);
+    background: rgb(1, 53, 51);
     font-family: 'Playfair Display', serif;
-    border: beige;
-    color: black;
+    border: none;
+    color: bisque;
+    width: 20%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 2%;
+}
+
+.prod-header {
+    font-family: fantasy;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 3%;
 }

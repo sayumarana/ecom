@@ -16,7 +16,7 @@ function Footer(props) {
                                 <a href="https://instagram.com" className="socialtag" target="_blank ">Instagram: @motherheals<img alt="instagram" src="/images/instagram.png" className="socialtag2"/></a>
                             </li>
                             <li>
-                                <a href="https://www.facebook.com " className="socialtag" target="_blank ">Facebook: @motherheals<img alt="facebook" src="/images/facebook.png" className="socialtag1"/></a>
+                                <a href="https://www.facebook.com " className="socialtag" target="_blank ">Facebook: @motherheals<img alt="facebook" src="/images/facebook.jpeg" className="socialtag1"/></a>
                             </li>
                         </ul>
                     </div>

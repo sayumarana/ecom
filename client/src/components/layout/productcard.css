@@ -5,12 +5,31 @@
     margin-top: 5%;
 }
 
-.card-deck {
+@media screen and (max-width:606px) {
+    .img-cont {
+        width: 75%;
+        height: 35%;
+    }
+}
+
+.container-fluid {
     display: inline-block;
-    width: 50%;
-    margin-left: auto;
+    width: 32%;
+    margin-left: 1%;
     margin-right: auto;
     margin-top: 5%;
+}
+
+@media screen and (max-width:992px) {
+    .container-fluid {
+        width: 48%;
+    }
+}
+
+@media screen and (max-width:604px) {
+    .container-fluid {
+        width: 98%;
+    }
 }
 
 h1{
@@ -28,11 +47,19 @@ p {
     margin-right: 15%;
 }
 
-.btn {
-    width: 20%;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
-    margin-top: 5%;
+.btn-secondary {
+    width: 33%;
+    margin-left: 33%;
+    margin-right:auto;
+    background: rgb(1, 53, 51);
+    color: bisque;
+}
+
+@media screen and (max-width: 710px) {
+    .btn-secondary {
+        width: 40%;
+        margin-left: 30%;
+    }
 }
 
 .btn:hover {
@@ -47,3 +74,5 @@ p {
 .product_name {
     font-family: fantasy;
 }
+
+

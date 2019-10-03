@@ -1,5 +1,5 @@
 .page-footer {
-    background: rgb(112, 130, 56);
+    background: rgb(1, 53, 51);
     margin-top: 8%;
     padding: 3em 0 2em 0;
 }
@@ -16,6 +16,7 @@
     justify-content: center;
     text-align: center;
     font-family: 'Playfair Display', serif;
+    color: bisque;
 }
 
 .insta {
@@ -26,6 +27,7 @@
 .social {
     text-align: center;
     font-family: 'Playfair Display', serif;
+    color: bisque;
 }
 
 .wrapper {
@@ -46,11 +48,11 @@
 
 .socialtag {
     text-decoration: none;
-    color: black;
+    color: bisque;
 }
 
 .socialtag:hover {
-    color: bisque;
+    color: white;
 }
 
 .socialtag1 {
@@ -60,12 +62,12 @@
 
 @media only screen and (max-width: 800px) {
     .socialtag1 {
-        max-width: 15%;
+        max-width: 7%;
     }
 }
 
 .socialtag2 {
-    max-width: 8%;
+    max-width: 7%;
     margin-bottom: 2%;
 }
 

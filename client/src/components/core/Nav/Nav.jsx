@@ -12,7 +12,7 @@ const Nav = (props) => {
             <span className="navbar-toggler-icon">&#9776;</span>
           </button>
     
-          <Link className="navbar-brand" to="/"><img alt="app logo" src="/images/logo.png" className="img-fluid"/></Link>
+          <Link className="navbar-brand" to="/"><img alt="app logo" src="/images/logo.jpeg" className="img-fluid c-logo"/></Link>
           
           <div className="collapse navbar-collapse" id="navigation-bar">
             <ul className="navbar-nav ml-auto">

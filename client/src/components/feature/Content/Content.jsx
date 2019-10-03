@@ -46,7 +46,8 @@ class Content extends React.Component {
 
   render(){
     return (
-      <>
+      <div>
+        <h3 className="prod-header">Mother Heals Herb Shop</h3>
       <div>
         <button className="btn btn-primary" onClick={this.filterFromHighToLow} >High to Low</button>
         <button className="btn btn-primary" onClick={this.filterFromLowToHigh} >Low To High</button>
@@ -54,7 +55,7 @@ class Content extends React.Component {
         <button className="btn btn-primary" onClick={this.filterNameBackwards} >Z to A</button>
         {this.state.products.map(p => <ProductCard key={p.product_id} name={p.name} imageURL={p.image_url} description={p.description} price={p.price} />)}
       </div>
-      </>
+      </div>
     )
   }
 }

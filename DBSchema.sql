@@ -88,11 +88,11 @@ contact_id INT AUTO_INCREMENT NOT NULL,
 full_name VARCHAR(50) NOT NULL,
 email VARCHAR(60) NOT NULL,
 subject_ VARCHAR(50),
-message VARCHAR(1000) NOT NULL,
+message_ VARCHAR(1000) NOT NULL,
 primary key(contact_id)
 );
 
-INSERT INTO Contacts(full_name, email, subject_, message)
+INSERT INTO Contacts(full_name, email, subject_, message_)
 VALUES('Megan Marks', 'meganmarks@gmail.com', 'wonderful product', 'loved the sea moss capsules would love
  to know if you have a newsletter to stay intouch thank you.')
  ,('Micheal Mayhern', 'michaelhern54@yahoo.com', 'recommendations', 'hello i have been taking the brain 

@@ -1,25 +1,36 @@
-// const expect = require("chai").expect;
-// const request = require('request');
+const expect = require("chai").expect;
+const request = require('request');
 
-
-// it('should take user to the home page', (done) => {
-//     request('http://localhost:3000/', (err, response, body) => {
-//         expect(body).to.equal('200 status')
-//         done()
-//     })
-// })
-
-// it('should take user to the products page', (done) => {
-//     request('http://localhost:3000/products', (err, response, body) => {
-//         expect(body).to.equal('200 status')
-//         done()
-//     })
-// })
-
-// it('should take user to the contact page', (done) => {
-//     request('http://localhost:3000/contacts', (err, response, body) => {
-//         expect(body).to.equal('200 status')
-//         done()
-//     })
-// })
+describe('Tests for "/" api endpoint', () => {
+    it("/ should send back 200 status code", (done) => {
+        request.get('/', (error, response, body) => {
+            expect(200)
+            done()
+        })
+    })
+    it("/ should not send back json in the body", (done) => {
+        request.get("/", (error, response, body) => {
+            expect(body).to.not.be.an('json')
+            done()
+        })
+    })
+    it("/ should send back the contents of the product table", (done) => {
+        request.get("/products", (error, response, body) => {
+            expect(200)
+            done()
+        })
+    })
+    it("/ should send back the contents of the contacts table", (done) => {
+        request.get("/contacts", (error, response, body) => {
+            expect(200)
+            done()
+        })
+    })
+    it("/ should send back the contents the products table with the price in order from lowest to highest", (done) => {
+        request.get("/lowToHigh", (error, response, body) => {
+            expect(200)
+            done()
+        })
+    })
+ })
 

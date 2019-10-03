@@ -1,16 +1,10 @@
 a.nav-item {
     margin: 10px;
     padding: 10px;
-    color: black;
+    color: bisque;
     text-decoration: none;
     font-family: 'Playfair Display', serif;
-    border-style: solid;
-    border-color: rgb(136, 136, 88);
     transition: 1s ease all;
-}
-
-a.nav-item:hover {
-    color: bisque;
 }
 
 .fixed-top {
@@ -18,6 +12,10 @@ a.nav-item:hover {
 }
 
 .navbar {
-    background: rgb(112, 130, 56);
+    background: rgb(1, 53, 51);
     width: 100%;
+}
+
+.c-logo {
+    width: 55px;
 }
